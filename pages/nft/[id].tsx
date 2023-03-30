@@ -93,7 +93,7 @@ function NFTDropPage() {
                 </div>
                 <hr className='my-2 border' />
                 {address && (
-                    <p>You're logged in with wallet {address.substring(0, 5)}...{address.substring(address.length - 5)}</p>
+                    <p>Youre logged in with wallet {address.substring(0, 5)}...{address.substring(address.length - 5)}</p>
                 )}
                 {/* content */}
                 <div className='mt-10 
@@ -118,7 +118,7 @@ function NFTDropPage() {
                     lg:text-5xl
                     lg:font-extrabold
                     '> The Coding Club | NFT Drop</h1>
-                    <p className='pt-2 text-xl text-green-500'> 13/12 NFT's claimed</p>
+                    <p className='pt-2 text-xl text-green-500'> 13/12 NFTs claimed</p>
 
                 </div>
                 {/* button */}
